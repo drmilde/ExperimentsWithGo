@@ -9,14 +9,6 @@ import (
 	//      "runtime"
 )
 
-func rec(p int) int {
-	if p < 0 {
-		return 0
-	} else {
-		return p + (rec(p - 1))
-	}
-}
-
 func main() {
 	fmt.Println("CSV Reader, JTM, 2018")
 	// fmt.Println("jetzt auch mit git und vscode")
