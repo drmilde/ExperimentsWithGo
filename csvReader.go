@@ -11,9 +11,6 @@ import (
 
 func main() {
 	fmt.Println("CSV Reader, JTM, 2018")
-	// fmt.Println("jetzt auch mit git und vscode")
-	fmt.Println("Tolle Sache, dieser VSCode")
-	// toll
 
 	// show runtime arguments
 	var s, sep string
