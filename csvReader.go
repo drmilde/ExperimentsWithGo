@@ -16,10 +16,6 @@ type event struct {
 	C2        float64 `json:"c2,omitempty"`
 }
 
-type name struct {
-	v, n string
-}
-
 func main() {
 	fmt.Println("CSV Reader, JTM, 2018")
 
